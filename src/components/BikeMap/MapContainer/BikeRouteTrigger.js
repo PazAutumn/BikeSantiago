@@ -53,7 +53,7 @@ class BikeRouteTrigger extends Component {
 					</Row>
 				</Grid>
 			</MuiThemeProvider>
-		);
+		)
 	}
 }
 
