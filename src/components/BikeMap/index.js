@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 import PropTypes from 'prop-types';
@@ -29,8 +30,6 @@ export class BikeMap extends Component {
       initialCenter={{lat: this.state.lat, lng: this.state.lng}}>
         <BikeRouteTrigger/>
       </Map>
-
-
     );
   }
 }
