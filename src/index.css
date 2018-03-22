@@ -48,3 +48,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.map-container {
+  height: 100vh;
+}

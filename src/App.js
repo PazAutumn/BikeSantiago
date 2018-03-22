@@ -30,17 +30,9 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <MuiThemeProvider>
-          <Grid>
-            <Row>
-              <Col xs={12}>
-                <Map google={this.props.google} zoom={this.state.zoom} width="100%" style={style}
-                initialCenter={{lat: this.state.lat, lng: this.state.lng}}/>
-                <BikeMap/>
-              </Col>
-            </Row>
-          </Grid>
-        </MuiThemeProvider>
+        <Map google={this.props.google} zoom={this.state.zoom} width="100%" style={style}
+          initialCenter={{lat: this.state.lat, lng: this.state.lng}}/>
+        <BikeMap/>
       </div>
     );
   }
