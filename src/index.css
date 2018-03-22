@@ -15,29 +15,17 @@ body {
   margin-left: -0.2em;
 }
 
-<<<<<<< HEAD
-.bar-icons ul li {
-  margin-right: 1em;
-}
-
-.info-icons ul {
-=======
 .bar-icons ul li{
   margin-right: 1em;
 
 }
 
 .info-icons ul{
->>>>>>> 54405e35129edf05f57ed9261d3a08e6ae348b9e
   list-style: none;
   font-size: 2em;
 }
 
-<<<<<<< HEAD
 .info-icons ul li {
-=======
-.info-icons ul li{
->>>>>>> 54405e35129edf05f57ed9261d3a08e6ae348b9e
   border-radius: 50%;
   background-color: rgb(247, 240, 240);
   margin-bottom: 0.5em;

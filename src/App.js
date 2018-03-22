@@ -12,11 +12,7 @@ class App extends Component {
           <Grid>
             <Row>
               <Col xs={12}>
-<<<<<<< HEAD
-                <BikeMap />
-=======
                 <BikeMap/>
->>>>>>> 54405e35129edf05f57ed9261d3a08e6ae348b9e
               </Col>
             </Row>
           </Grid>
@@ -26,10 +22,6 @@ class App extends Component {
   }
 }
 
-<<<<<<< HEAD
-export default App;
-=======
 export default App;
 
 
->>>>>>> 54405e35129edf05f57ed9261d3a08e6ae348b9e
