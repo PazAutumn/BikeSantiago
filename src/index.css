@@ -3,3 +3,34 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.bar-icons ul {
+  list-style: none;
+  display: flex;
+  font-size: 3em;
+  margin-right: 1em;
+  color: white;
+  background-color: #FF9800;
+  width: 100%;
+  margin-left: -0.2em;
+}
+
+.bar-icons ul li{
+  margin-right: 1em;
+
+}
+
+.info-icons ul{
+  list-style: none;
+  font-size: 2em;
+}
+
+.info-icons ul li{
+  border-radius: 50%;
+  background-color: rgb(247, 240, 240);
+  margin-bottom: 0.5em;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

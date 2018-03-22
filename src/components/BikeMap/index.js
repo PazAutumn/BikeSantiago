@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import BikeRouteTrigger from './MapContainer/BikeRouteTrigger';
 import './index.css';
 
+
 export class BikeMap extends Component {
 
   constructor(props) {
@@ -29,8 +30,6 @@ export class BikeMap extends Component {
       initialCenter={{lat: this.state.lat, lng: this.state.lng}}>
         <BikeRouteTrigger/>
       </Map>
-
-
     );
   }
 }
