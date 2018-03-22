@@ -9,7 +9,7 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faBicycle } from '@fortawesome/fontawesome-free-solid';
 import './style.css';
 
-class SideTrigger extends Component {
+class BikeRouteTrigger extends Component {
 
 	constructor(props) {
     super(props);
@@ -58,4 +58,4 @@ class SideTrigger extends Component {
 }
 
 
-export default SideTrigger;
+export default BikeRouteTrigger;
