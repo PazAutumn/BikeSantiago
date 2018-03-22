@@ -6,18 +6,19 @@ import BikeMap from './components/BikeMap';
 import './App.css';
 
 class App extends Component {
-
   render() {
     return (
-      <MuiThemeProvider>
-        <Grid>
-          <Row>
-            <Col xs={12}>
-              <BikeMap/>
-            </Col>
-          </Row>
-        </Grid>
-      </MuiThemeProvider>
+      <div className="App">
+        <MuiThemeProvider>
+          <Grid>
+            <Row>
+              <Col xs={12}>
+                <BikeMap/>
+              </Col>
+            </Row>
+          </Grid>
+        </MuiThemeProvider>
+      </div>
     );
   }
 }
