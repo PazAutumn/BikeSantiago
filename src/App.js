@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import IconBar from './components/BikeMap/MapContainer/IconBar';
-import BikeInfo from './components/BikeMap/MapContainer/BikeInfo';
 import './App.css';
 
 class App extends Component {
@@ -15,9 +13,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <BikeInfo/>
-        <IconBar/>
-
+        
       </div>
     );
   }

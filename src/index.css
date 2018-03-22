@@ -29,8 +29,8 @@ body {
   border-radius: 50%;
   background-color: rgb(247, 240, 240);
   margin-bottom: 0.5em;
-  padding-bottom: 0.4em;
-  padding-top: 0.4em;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
