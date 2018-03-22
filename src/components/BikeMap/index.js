@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 import PropTypes from 'prop-types';
 import BikeRouteTrigger from './MapContainer/BikeRouteTrigger';
+import IconBar from './MapContainer/IconBar'
 import './index.css';
 
 
@@ -29,6 +30,7 @@ export class BikeMap extends Component {
       <Map google={this.props.google} zoom={this.state.zoom} style={style}
       initialCenter={{lat: this.state.lat, lng: this.state.lng}}>
         <BikeRouteTrigger/>
+        <IconBar />
       </Map>
     );
   }

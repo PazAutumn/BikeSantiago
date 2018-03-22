@@ -18,6 +18,7 @@ class App extends Component {
           </Grid>
         </MuiThemeProvider>
       </div>
+      
     );
   }
 }
