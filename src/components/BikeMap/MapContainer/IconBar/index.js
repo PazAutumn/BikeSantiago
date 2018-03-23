@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import {Row,Col} from 'react-flexbox-grid';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FaHeartO from 'react-icons/lib/fa/heart-o';
+import FaMapMarker from 'react-icons/lib/fa/map-marker';
 import FaUser from 'react-icons/lib/fa/user';
 import FaExclamation from 'react-icons/lib/fa/exclamation';
 import MdDirectionsBike from 'react-icons/lib/md/directions-bike';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import FontIcon from 'material-ui/FontIcon';
 import ActionFlightTakeoff from 'material-ui/svg-icons/action/flight-takeoff';
+import Favorites from './TabA';
 
   const styles = {
   headline: {
@@ -42,13 +44,15 @@ handleChange = (value) => {
         value={this.state.value}
         onChange={this.handleChange}
       >
-        <Tab label="Tab A" value="a">
+        <Tab icon={<FaMapMarker/>} value="a">
+        
+        </Tab>
+        <Tab icon={<FaHeartO/>} value="b">
           <div>
-            <h2 style={styles.headline}>Controllable Tab A</h2>
-            
+            <Favorites/>
           </div>
         </Tab>
-        <Tab label="Tab B" value="b">
+        <Tab icon={<FaUser/>} value="c">
           <div>
             <h2 style={styles.headline}>Controllable Tab B</h2>
             <p>
@@ -58,7 +62,7 @@ handleChange = (value) => {
             </p>
           </div>
         </Tab>
-        <Tab label="Tab C" value="c">
+        <Tab icon={<FaExclamation/>} value="d">
           <div>
             <h2 style={styles.headline}>Controllable Tab B</h2>
             <p>

@@ -13,6 +13,7 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
     "react-flexbox-grid": "^2.0.0",
+    "react-geolocated": "^2.3.0",
     "react-icons": "^2.2.7",
     "react-scripts": "1.1.1"
   },
