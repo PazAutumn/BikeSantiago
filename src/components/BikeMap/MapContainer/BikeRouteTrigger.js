@@ -42,7 +42,7 @@ class BikeRouteTrigger extends Component {
 							</Col>
 							<MenuItem>
 								<p className="text">Origen</p>
-								<input type="text" placeholder="Ingresa punto de partida"/>
+								<input className="origin" type="text" placeholder="Ingresa punto de partida"/>
 							</MenuItem>
 							<MenuItem>
 								<p className="text">Destino</p>
