@@ -29,7 +29,7 @@ class BikeRouteTrigger extends Component {
 			<MuiThemeProvider>
 				<Grid>
 					<Row bottom="xs">
-						<Col xs={4}>
+						<Col className="trigger" xs={4}>
 						<RaisedButton backgroundColor='orange' border-radius='100%' label="" onClick={this.handleToggle}>
 							<FontAwesomeIcon color='white' fontSize='20px' icon={faBicycle}/>
 						</RaisedButton>

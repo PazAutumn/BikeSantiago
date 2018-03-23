@@ -11,10 +11,9 @@ class MapContainer extends Component {
   render() {
     return (
       <div className="map-container">
-        <Row bottom="xs">
+        <Row>
           <Col xs={12}>
             <IconBar/>
-            <BikeRouteTrigger/>
           </Col>
         </Row>
       </div>
