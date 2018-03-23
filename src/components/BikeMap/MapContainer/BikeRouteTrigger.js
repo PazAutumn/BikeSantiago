@@ -28,10 +28,12 @@ class BikeRouteTrigger extends Component {
 		return(
 			<MuiThemeProvider>
 				<Grid>
-					<Row>
+					<Row bottom="xs">
+						<Col className="trigger" xs={4}>
 						<RaisedButton backgroundColor='orange' border-radius='100%' label="" onClick={this.handleToggle}>
 							<FontAwesomeIcon color='white' fontSize='20px' icon={faBicycle}/>
 						</RaisedButton>
+						</Col>
 					</Row>
 					<Row className="ruta">
 						<Drawer docked={false} width={200} open={this.state.open} onRequestChange={(open) => this.setState({open})}>
@@ -40,7 +42,7 @@ class BikeRouteTrigger extends Component {
 							</Col>
 							<MenuItem>
 								<p className="text">Origen</p>
-								<input type="text" placeholder="Ingresa punto de partida"/>
+								<input className="origin" type="text" placeholder="Ingresa punto de partida"/>
 							</MenuItem>
 							<MenuItem>
 								<p className="text">Destino</p>
