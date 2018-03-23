@@ -44,6 +44,9 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
   * Dicidieron los componentes de REACT que se iban a usar y se dividieron entre ellas el trabajo.
   * Comenzaron con la maquetación de componentes.
   
+  ![img_3397](https://user-images.githubusercontent.com/32282941/37834195-17d88dba-2ea5-11e8-9e66-46c1ca5f0abb.jpg)
+
+  
   
 
 
