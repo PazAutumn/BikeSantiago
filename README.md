@@ -39,5 +39,12 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
 
 ![benchmark-appsbicis](https://user-images.githubusercontent.com/32282941/37832958-06f94122-2ea2-11e8-803a-79f95368d2e8.jpg)
 
+2. El equipo Front-End
+
+  * Dicidieron los componentes de REACT que se iban a usar y se dividieron entre ellas el trabajo.
+  * Comenzaron con la maquetación de componentes.
+  
+  
+
 
   
