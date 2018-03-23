@@ -49,3 +49,18 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
 Tomando en cuenta los descubrimientos obtenidos, el equipo de UX realizó el flujo de la nueva y mejorada aplicación de Mi Bikesantiago
 
 ![img_3375](https://user-images.githubusercontent.com/32282941/37835232-952ff620-2ea7-11e8-9139-aad30b791c55.jpg)
+
+Si bien no podemos abarcar todas las problemáticas, como grupo decidimos incluir estas soluciones: 
+
+  * Trazar ruta dentro de la aplicación
+  * Al ingresar al perfil de usuario se pueden ver los viajes realizados
+  
+ Otras funcionalidades que proponemos para esta aplicación para poder mejorar la experiencia del usuario son:
+ 
+  * Incorporar un cronómetro para que el usuario organice su viaje y alcance a llegar a tiempo a la siguiente estación
+  * Notificaciones en tiempo real de usuarios para usuarios, con el fin de conocer el estado de las bicicletas
+  * Para transparentar el tema de los cobros, incluir en los viajes realizados el monto a pagar si es que hubo sobretiempo
+  
+## Equipo de Desarrollo 
+
+Paz Contreras | Ariella Rodríguez | Carolina Celis | Estefanía Araos | Valeria Navarrete
