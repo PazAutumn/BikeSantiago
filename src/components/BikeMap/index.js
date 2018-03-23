@@ -4,9 +4,7 @@ import PropTypes from 'prop-types';
 import BikeRouteTrigger from './MapContainer/BikeRouteTrigger';
 import './index.css';
 
-
 export class BikeMap extends Component {
-
 
   constructor(props) {
     super(props); 
@@ -36,7 +34,6 @@ export class BikeMap extends Component {
   //   });
   // }
 
-
   render() {
     const style = {
       width: '100%',
@@ -53,7 +50,6 @@ export class BikeMap extends Component {
     );
   }
 }
-
 
 Map.propTypes = {
   google: PropTypes.object,
