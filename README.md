@@ -1,6 +1,8 @@
 # Hackaton- Mi Bike Santiago
 
-Nuestra problemática: *La app de Bikesantiago tiene solo 2.1 estrellas en la Play Store. Ayúdanos a entender por qué tiene tan bajo rating y cómo podemos hacer para mejorar la experiencia y el rating.
+Nuestra problemática: 
+
+*La app de Bikesantiago tiene solo 2.1 estrellas en la Play Store. Ayúdanos a entender por qué tiene tan bajo rating y cómo podemos hacer para mejorar la experiencia y el rating.*
 
 ## Planificación 21/02:
 
