@@ -1,4 +1,4 @@
-#Hackaton- Mi Bike Santiago
+# Hackaton- Mi Bike Santiago
 
 ## Planificación 21/02:
 
