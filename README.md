@@ -4,8 +4,6 @@ Nuestra problemática:
 
 *La app de Bikesantiago tiene solo 2.1 estrellas en la Play Store. Ayúdanos a entender por qué tiene tan bajo rating y cómo podemos hacer para mejorar la experiencia y el rating.*
 
-## Planificación 21/02:
-
 #### Kick Off
 
 Nos organizamos como equipo y decidimos investigar en conjunto acerca de la problemática. Descargamos la aplicación para conocer como era la interacción y en conjunto decidir que podríamos crear para aportarle valor. 
@@ -45,7 +43,8 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
   * Comenzaron con la maquetación de componentes.
   
   ![img_3397](https://user-images.githubusercontent.com/32282941/37834195-17d88dba-2ea5-11e8-9e66-46c1ca5f0abb.jpg)
-
+  
+## 
   
   
 
