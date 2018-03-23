@@ -8,6 +8,8 @@ import FaExclamation from 'react-icons/lib/fa/exclamation';
 import MdDirectionsBike from 'react-icons/lib/md/directions-bike';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import FontIcon from 'material-ui/FontIcon';
+import BikeRouteTrigger from './../BikeRouteTrigger';
+import BikeInfo from './../BikeInfo';
 import ActionFlightTakeoff from 'material-ui/svg-icons/action/flight-takeoff';
 import Favorites from './TabA';
 
@@ -37,42 +39,52 @@ handleChange = (value) => {
 
   render(){
 
+    const style = {
+      backgroundColor: 'orange',
+    }
+
     return (
       <div className="bar-icons">
-      <MuiThemeProvider>
-        <Tabs
-        value={this.state.value}
-        onChange={this.handleChange}
-      >
-        <Tab icon={<FaMapMarker/>} value="a">
-        
-        </Tab>
-        <Tab icon={<FaHeartO/>} value="b">
-          <div>
-            <Favorites/>
-          </div>
-        </Tab>
-        <Tab icon={<FaUser/>} value="c">
-          <div>
-            <h2 style={styles.headline}>Controllable Tab B</h2>
-            <p>
-              This is another example of a controllable tab. Remember, if you
-              use controllable Tabs, you need to give all of your tabs values or else
-              you wont be able to select them.
-            </p>
-          </div>
-        </Tab>
-        <Tab icon={<FaExclamation/>} value="d">
-          <div>
-            <h2 style={styles.headline}>Controllable Tab B</h2>
-            <p>
-              This is another example of a controllable tab. Remember, if you
-              use controllable Tabs, you need to give all of your tabs values or else
-              you wont be able to select them.
-            </p>
-          </div>
-        </Tab>
-      </Tabs>
+        <MuiThemeProvider>
+          <Tabs value={this.state.value} onChange={this.handleChange}>
+            <Tab style={style} icon={<FaMapMarker/>} value="a">
+              <Row middle="xs">
+                <Col xs={12}>
+                  <BikeRouteTrigger/>
+                </Col>
+              </Row>
+              <Row center='xs'>
+                <Col xs={12}>
+                  <BikeInfo/>
+                </Col>
+              </Row>
+            </Tab>
+            <Tab style={style} icon={<FaHeartO/>} value="b">
+              <div>
+                <Favorites/>
+              </div>
+            </Tab>
+            <Tab style={style} icon={<FaUser/>} value="c">
+              <div>
+                <h2 style={styles.headline}>Controllable Tab B</h2>
+                <p>
+                  This is another example of a controllable tab. Remember, if you
+                  use controllable Tabs, you need to give all of your tabs values or else
+                  you wont be able to select them.
+                </p>
+              </div>
+            </Tab>
+            <Tab style={style} icon={<FaExclamation/>} value="d">
+              <div>
+                <h2 style={styles.headline}>Controllable Tab B</h2>
+                <p>
+                  This is another example of a controllable tab. Remember, if you
+                  use controllable Tabs, you need to give all of your tabs values or else
+                  you wont be able to select them.
+                </p>
+              </div>
+            </Tab>
+          </Tabs>
         </MuiThemeProvider>
       </div>
     );

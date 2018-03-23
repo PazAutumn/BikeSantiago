@@ -8,6 +8,10 @@
 	background-color: orange;
 }
 
+.trigger {
+	margin: 10px -7px;
+}
+
 .ruta-btn {
 	background-color: orange;
 	color: black;
@@ -40,4 +44,10 @@ input {
 
 .favoritos h2 {
 	margin: 0;
+}
+
+.favoritos img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
 }
