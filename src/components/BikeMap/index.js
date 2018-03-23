@@ -7,8 +7,9 @@ import './index.css';
 
 export class BikeMap extends Component {
 
+
   constructor(props) {
-    super(props);
+    super(props); 
 
     this.state = {
       zoom: 16,
@@ -16,6 +17,25 @@ export class BikeMap extends Component {
       lng: -70.6470
     }
   }
+
+  componentDidMount() {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        this.setState({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+      },
+    );
+  }
+
+  // componentWillReceiveProps(next_props) {
+  //   this.setState({
+  //     lat: next_props.lat,
+  //     lng: next_props.lng
+  //   });
+  // }
+
 
   render() {
     const style = {
@@ -33,6 +53,7 @@ export class BikeMap extends Component {
     );
   }
 }
+
 
 Map.propTypes = {
   google: PropTypes.object,
