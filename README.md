@@ -42,7 +42,7 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
 2. El equipo Front-End
 
   * Dicidieron los componentes de REACT que se iban a usar y se dividieron entre ellas el trabajo.
-  * Comenzaron con la maquetación de componentes.
+  * Comenzaron con la maquetación de componentes.
   
   
 
