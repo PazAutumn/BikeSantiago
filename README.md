@@ -30,10 +30,10 @@ Nos organizamos como equipo y decidimos investigar en conjunto acerca de la prob
 Al finalizar nuestra investigación pudimos rescatar:
 
   * Ellos se hicieron usuarios del servicio con el fin de movilizarse por tramos cortos de Santiago.
-  * Descargaron la aplicación porque le permitía ver la estación más cercanas a su ubicación y poder verificar la disponibilidad de bicicletas y anclajes.
+  * Descargaron la aplicación porque le permitía ver la estación más cercanas a su ubicación y poder verificar la disponibilidad de bicicletas y anclajes.
   * Dentro de los mayores problemas que tienen los usuarios con el servicio de bicicletas es que hay cobros indebidos y bicis en mal estado.
-  * En cuanto a la app, las principales quejas: es lenta, las funcionalidades que ofrece no actúan como deberían (geolocalización, los reclamos)
-  * La información que entrega sobre la disponibilidad de bicicletas y anclajes no está actualizada.
+  * En cuanto a la app, las principales quejas: es lenta, las funcionalidades que ofrece no actúan como deberían (geolocalización, los reclamos)
+  * La información que entrega sobre la disponibilidad de bicicletas y anclajes no está actualizada.
   
 Para complementar realizamos un Benchmark con el objetivo de identificar los mejores aspectos de aplicaciones similares para optimizar nuestra aplicación.
 
