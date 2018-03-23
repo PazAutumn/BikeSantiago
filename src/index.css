@@ -4,9 +4,23 @@ body {
   font-family: sans-serif;
 }
 
+.map-container {
+  position: relative;
+}
+
+.bar.icons {
+  position: absolute;
+  display: flex;
+}
+
+.tab-icon {
+  display: flex;
+  background: orange;
+  align-items: flex-end;
+}
+
 .bar-icons ul {
   list-style: none;
-  display: flex;
   font-size: 3em;
   margin-right: 1em;
   color: white;
