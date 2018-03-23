@@ -3,10 +3,11 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import TextField from 'material-ui/TextField';
-import {orange500, blue500, white} from 'material-ui/styles/colors';
+import {orange500, blue500, white, orange} from 'material-ui/styles/colors';
 import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
 import SelectField from 'material-ui/SelectField';
+import FlatButton from 'material-ui/FlatButton';
 
 const styles = {
   headline: {
@@ -26,7 +27,7 @@ const styles = {
     color: orange500,
   },
   floatingLabelFocusStyle: {
-    color: blue500,
+    color: orange,
   },
   bg: {
     backgroundColor: 'white',
@@ -39,6 +40,9 @@ const styles = {
   },
   alingn: {
     textAlign: 'center',
+  },
+  btn: {
+    backgroundColor: 'orange',
   }
 };
 
@@ -57,16 +61,23 @@ export class SelectFieldExampleSimple extends Component {
           value={this.state.value}
           onChange={this.handleChange}
         >
-          <MenuItem value={1} primaryText="Otro" />
+          <MenuItem value={1} primaryText="Seleccione tipo..." />
           <MenuItem value={2} primaryText="Bicicleta en mal estado" />
-          <MenuItem value={3} primaryText="Problemas con la app" />
-          <MenuItem value={4} primaryText="Weekends" />
-          <MenuItem value={5} primaryText="Weekly" />
+          <MenuItem value={3} primaryText="He perdido mi bicicleta" />
+          <MenuItem value={4} primaryText="Problemas en mi cobro" />
+          <MenuItem value={5} primaryText="He perdido la llave" />
+          <MenuItem value={6} primaryText="Información general" />
         </SelectField>
       </div>
     );
   }
 }
+
+export const FlatButtonExampleSimple = () => (
+  <div>
+    <FlatButton label="Enviar" />
+  </div>
+);
 
 
 const Report = () => (
@@ -76,24 +87,13 @@ const Report = () => (
   <div>
     <SelectFieldExampleSimple/>
     <TextField
-      hintText="Styled Hint Text"
-      hintStyle={styles.errorStyle}
-    /><br />
-    <TextField
-      hintText="Custom Underline Color"
-      underlineStyle={styles.underlineStyle}
-    /><br />
-    <TextField
-      hintText="Custom Underline Focus Color"
-      underlineFocusStyle={styles.underlineStyle}
-    /><br />
-    <TextField
       floatingLabelText="Agregue un comentario"
       floatingLabelStyle={styles.floatingLabelStyle}
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
       multiLine={true}
       rows={6}
-    /><br/>
+    /><br/><br/>
+    <FlatButtonExampleSimple/>
   </div>
 </div>
 );
