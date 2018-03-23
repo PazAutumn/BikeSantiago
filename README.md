@@ -44,9 +44,8 @@ Para complementar realizamos un Benchmark con el objetivo de identificar los mej
   
   ![img_3397](https://user-images.githubusercontent.com/32282941/37834195-17d88dba-2ea5-11e8-9e66-46c1ca5f0abb.jpg)
   
-## 
-  
-  
+## User Flow
 
+Tomando en cuenta los descubrimientos obtenidos, el equipo de UX realizó el flujo de la nueva y mejorada aplicación de Mi Bikesantiago
 
-  
+![img_3375](https://user-images.githubusercontent.com/32282941/37835232-952ff620-2ea7-11e8-9139-aad30b791c55.jpg)
