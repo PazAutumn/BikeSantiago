@@ -3,7 +3,6 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FaBicycle from 'react-icons/lib/fa/bicycle';
 import MdPanoramaVertical from 'react-icons/lib/md/panorama-vertical';
-import MdGpsFixed from 'react-icons/lib/md/gps-fixed';
 
 const BikeInfo = () => {
     return (
