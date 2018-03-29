@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import BikeRouteTrigger from './BikeRouteTrigger';
+import { Row, Col } from 'react-flexbox-grid';
 import IconBar from './IconBar';
-import BikeInfo from './BikeInfo';
+
 
 
 

@@ -60,36 +60,35 @@ class Form extends Component {
     }
 
     render() {
-        return (
-            <Row>
-                <Col xs={12}>
-                    <div><img src={BikeLogo} alt="logo" /></div>
-                    <form className="BikeForm">
-                        <h1>Bienvenido a <br /> mi Bike Santiago</h1>
-                        <div className="panel panel-default">
-                            <FormErrors formErrors={this.state.formErrors} />
-                        </div>
-                        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
-                            <label id="mail" htmlFor="email">Correo:</label>
-                            <input type="email" required className="form-control" name="email"
-                                placeholder="correo@correo.com"
-                                value={this.state.email}
-                                onChange={this.handleUserInput} />
-                        </div>
-
-                        <div className={`form-group ${this.errorClass(this.state.formErrors.password)}`}>
-                            <label id="bcar" htmlFor="password">B-Card:</label>
-                            <input type="password" className="form-control" name="password"
-                                placeholder="000000"
-                                value={this.state.password}
-                                onChange={this.handleUserInput} />
-                        </div>
-                        <button type="submit" className="btn btn-primary" disabled={!this.state.formValid}>Confirmar</button>
-                    </form>
-                </Col>
-            </Row>
-        )
+      return (
+        <Row>
+          <Col xs={12}>
+            <div><img src={BikeLogo} alt="logo" /></div>
+            <form className="BikeForm">
+              <h1>Bienvenido a <br /> mi Bike Santiago</h1>
+              <div className="panel panel-default">
+                <FormErrors formErrors={this.state.formErrors} />
+              </div>
+              <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+                <label id="mail" htmlFor="email">Correo:</label>
+                <input type="email" required className="form-control" name="email"
+                placeholder="correo@correo.com"
+                value={this.state.email}
+                onChange={this.handleUserInput} />
+              </div>
+              <div className={`form-group ${this.errorClass(this.state.formErrors.password)}`}>
+                <label id="bcar" htmlFor="password">B-Card:</label>
+                <input type="password" className="form-control" name="password"
+                placeholder="000000"
+                value={this.state.password}
+                onChange={this.handleUserInput} />
+              </div>
+              <button type="submit" className="btn btn-primary" disabled={!this.state.formValid}>Confirmar</button>
+            </form>
+          </Col>
+        </Row>
+      )
     }
-}
+  }
 
 export default Form;

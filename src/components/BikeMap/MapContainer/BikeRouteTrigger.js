@@ -1,4 +1,3 @@
-//componente de función
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -42,7 +41,7 @@ class BikeRouteTrigger extends Component {
 							</Col>
 							<MenuItem>
 								<p className="text">Origen</p>
-								<input className="origin" type="text" placeholder="Ingresa punto de partida"/>
+								<input type="text" placeholder="Ingresa punto de partida"/>
 							</MenuItem>
 							<MenuItem>
 								<p className="text">Destino</p>
