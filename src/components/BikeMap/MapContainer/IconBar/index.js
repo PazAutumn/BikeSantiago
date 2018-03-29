@@ -11,7 +11,9 @@ import FontIcon from 'material-ui/FontIcon';
 import BikeRouteTrigger from './../BikeRouteTrigger';
 import BikeInfo from './../BikeInfo';
 import ActionFlightTakeoff from 'material-ui/svg-icons/action/flight-takeoff';
-import Favorites from './TabA';
+import Favorites from './TabB';
+import User from './TabC';
+import Report from './TabD';
 
   const styles = {
   headline: {
@@ -66,22 +68,12 @@ handleChange = (value) => {
             </Tab>
             <Tab style={style} icon={<FaUser/>} value="c">
               <div>
-                <h2 style={styles.headline}>Controllable Tab B</h2>
-                <p>
-                  This is another example of a controllable tab. Remember, if you
-                  use controllable Tabs, you need to give all of your tabs values or else
-                  you wont be able to select them.
-                </p>
+                <User/>
               </div>
             </Tab>
             <Tab style={style} icon={<FaExclamation/>} value="d">
               <div>
-                <h2 style={styles.headline}>Controllable Tab B</h2>
-                <p>
-                  This is another example of a controllable tab. Remember, if you
-                  use controllable Tabs, you need to give all of your tabs values or else
-                  you wont be able to select them.
-                </p>
+                <Report/>
               </div>
             </Tab>
           </Tabs>

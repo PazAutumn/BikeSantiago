@@ -96,7 +96,7 @@ const Favorites = () =>
 	    		</Row>
 	    	</Col>
 	    </Row>
-	    <Divider />
+	    <Divider/>
 		</Grid>
 	</MuiThemeProvider>
 </div>
