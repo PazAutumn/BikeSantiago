@@ -5,6 +5,10 @@ import {Tabs, Tab} from 'material-ui/Tabs';
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc7f2d7a1ddfeb052cb1e3b753ced6dba3b5f72d
 const styles = {
   headline: {
     fontSize: 24,

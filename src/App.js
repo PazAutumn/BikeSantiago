@@ -17,7 +17,10 @@ class App extends Component {
         <BikeMap/>
         <MapContainer/>
       </div>
-    )
+
+      
+    );
+    
   }
 }
  
